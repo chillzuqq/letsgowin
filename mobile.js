@@ -87,3 +87,8 @@ papers.forEach(paper => {
   const p = new Paper();
   p.init(paper);
 });
+
+
+toppest.addEventListener("click", () => {
+  document.getElementById("song").play();
+});

@@ -76,6 +76,7 @@ class Paper {
 
 const papers = Array.from(document.querySelectorAll('.paper'));
 
+
 papers.forEach(paper => {
   const p = new Paper();
   p.init(paper);
